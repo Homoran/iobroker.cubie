@@ -110,28 +110,7 @@ After some ports are enabled following states appear in the object tree:
 
 ## Changelog
 
-### 0.2.1 (2016-10-29)
- - (bluefox) fix start of adapter
-
-### 0.2.0 (2016-10-23)
- - (bluefox) just version change
- 
-### 0.1.1 (2016-10-13)
- - (bluefox) implement GPIOs control
-
-### 0.0.4 (2016-03-25)
- - (bluefox) Try catch by eval
-   (bluefox) do not process if exec fails
-   
-### 0.0.3 (2015-12-28)
- - (husky-koglhof) Fixed value calc.
-   Set Value to 2 digits
-   
-### 0.0.2 (2015-12-26)
- - (husky-koglhof) Workaround for node 0.10.x
- - (bluefox) Some Fixes
- 
-### 0.0.1 (2015-12-23)
+### 0.0.1 (2016-11-14)
  - Initial commit. Alpha Version.
 
 ## License
