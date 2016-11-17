@@ -1,5 +1,5 @@
-![Logo](admin/rpi.png)
-ioBroker RPI-Monitor Adapter
+![Logo](admin/cubie.png)
+ioBroker cubie-Monitor Adapter
 ==============
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.rpi2.svg)](https://www.npmjs.com/package/iobroker.rpi2)
@@ -7,7 +7,10 @@ ioBroker RPI-Monitor Adapter
 
 [![NPM](https://nodei.co/npm/iobroker.rpi2.png?downloads=true)](https://nodei.co/npm/iobroker.rpi2/)
 
-RPI-Monitor implementation for integration into ioBroker. It is the same implementation as for iobroker.rpi, but with GPIOs.
+cubie-Monitor implementation for integration into ioBroker. 
+It is derived from iobroker.rpi with GPIOs, but not yet tested.
+
+Tested only with armbian
 
 ## Important Information
 Works only with node >= 0.12
@@ -17,9 +20,9 @@ Works only with node >= 0.12
 ## Installation
 After installation you have to configure all required modules via administration page.
 
-After start of iobroker.rpi, all selected modules generates
-an object tree in ioBroker within rpi.<instance>.<modulename>
-e.g. rpi.0.cpu
+After start of iobroker.cubie, all selected modules generates
+an object tree in ioBroker within cubie.<instance>.<modulename>
+e.g. cubie.0.cpu
 
 Be sure, that python and build-essential are installed:
 
@@ -54,8 +57,8 @@ Following Objects are available after selection:
 - net_send
 
 #### **SDCard**
-- sdcard_boot_total
-- sdcard_boot_used
+- *sdcard_boot_total* (not supprted by armbian therefore removed)
+- *sdcard_boot_used* (not supprted by armbian therefore removed)
 - sdcard_root_total
 - sdcard_root_used
 
@@ -103,7 +106,7 @@ All what you need to do is to configure in the settings the GPIOs options (addit
 ![GPIOs](img/pi3_gpio.png)
 
 After some ports are enabled following states appear in the object tree:
-- rpi.0.gpio.PORT.state
+- cubie.0.gpio.PORT.state
 
 ## Changelog
 
