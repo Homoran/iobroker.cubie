@@ -10,7 +10,7 @@ ioBroker cubie-Monitor Adapter
 cubie-Monitor implementation for integration into ioBroker. 
 It is derived from iobroker.rpi with GPIOs, but not yet tested.
 
-Tested only with armbian
+Tested only with armbian - GPIOs not tested
 
 ## Important Information
 Works only with node >= 0.12
