@@ -1,11 +1,11 @@
 {
     "common": {
-        "name":                     "Pine64",
-        "title":                    "Pine64-Monitor",
+        "name":                     "cubie",
+        "title":                    "cubie-Monitor",
         "desc":                     {
-			"en": "Pine64-Monitor for ioBroker Installations",
-			"de": "Pine64-Monitor für ioBroker",
-			"ru": "Pine64-Монитор для ioBroker"
+			"en": "cubie-Monitor for ioBroker Installations",
+			"de": "cubie-Monitor für ioBroker",
+			"ru": "cubie-Монитор для ioBroker"
 		},
         "version":                  "0.0.1",
         "news": {
@@ -19,7 +19,7 @@
         "platform":                 "javascript/Node.js",
         "os":                       ["linux", "darwin"],
         "loglevel":                 "info",
-        "keywords":                 ["ioBroker", "monitoring", "Pine64"],
+        "keywords":                 ["ioBroker", "monitoring", "cubietruck"],
         "main":                     "main.js",
         "authors": [
             "Christian Baumgartner", "husky-koglhof <husky.koglhof@icloud.com>"
@@ -27,7 +27,7 @@
         "license":                  "MIT",
         "singletonHost":             true,
         "readme":                   "https://github.com/ioBroker/ioBroker.rpi2/blob/master/README.md",
-        "icon":                     "Pine64.png",
+        "icon":                     "cubie.png",
         "type":                     "hardware",
         "config":{
             "minWidth":   650,
